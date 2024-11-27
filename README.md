@@ -2,7 +2,7 @@
 
 This repository includes our work about simulating traveltime with neural operator.
 
-Recommend version of package:
+package version in our work:
 
 jax                       0.4.28 
 
