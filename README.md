@@ -7,11 +7,13 @@ In this project, we propose **PI-Fourier-DeepONet**, a hybrid physics-informed n
 # Dataset
 ![4_velocity_families](https://github.com/user-attachments/assets/5662e93e-1c09-4d66-9e4d-638927abf401)
 
-我们利用OpenFWI(https://github.com/lanl/OpenFWI)提供的数据集进行测试
+We use the dataset provided by OpenFWI (https://github.com/lanl/OpenFWI) for testing.
 
 # Results
 ![train_styleA](https://github.com/user-attachments/assets/7d7ffecc-4812-48d7-b202-93cdbfdd4d88)
-PI-Fourier-DeepONet能够在eikonal方程的指导下，对不同速度模型进行地震走时模拟。我们利用scikit-fmm(https://github.com/scikit-fmm/scikit-fmm)提供的Fast Marching Method(FMM)作为作为比较的基准。
+![3_families_2](https://github.com/user-attachments/assets/e3f5e6c0-cd18-4785-9fec-96d8f470fdb9)
+
+PI-Fourier-DeepONet is capable of performing seismic traveltime simulation for different velocity models under the guidance of the eikonal equation. We use the Fast Marching Method (FMM) provided by scikit-fmm ([https://github.com/scikit-fmm/scikit-fmm](https://github.com/scikit-fmm/scikit-fmm)) as the baseline for comparison.
 
 # Requirements
 
