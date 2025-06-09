@@ -11,7 +11,6 @@ We use the dataset provided by OpenFWI (https://github.com/lanl/OpenFWI) for tes
 
 # Results
 ![train_styleA](https://github.com/user-attachments/assets/7d7ffecc-4812-48d7-b202-93cdbfdd4d88)
-![3_families_2](https://github.com/user-attachments/assets/e3f5e6c0-cd18-4785-9fec-96d8f470fdb9)
 
 PI-Fourier-DeepONet is capable of performing seismic traveltime simulation for different velocity models under the guidance of the eikonal equation. We use the Fast Marching Method (FMM) provided by scikit-fmm ([https://github.com/scikit-fmm/scikit-fmm](https://github.com/scikit-fmm/scikit-fmm)) as the baseline for comparison.
 
