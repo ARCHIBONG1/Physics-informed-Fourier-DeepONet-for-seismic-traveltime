@@ -24,7 +24,7 @@ The following kernel density estimation (KDE) plots illustrate the error distrib
 # Related Publication
 For more details and technical descriptions, please refer to our paper：
 
-**Physics-Informed Fourier-DeepONet for a generalized eikonal solution**
+**Liu, Z., Archibong, G., Waheed, U. B., Wang, S., & Song, C. (2025). Physics-informed Fourier-DeepONet for a generalized eikonal solution. Computers & Geosciences, 106026.**
 
 https://doi.org/10.1016/j.cageo.2025.106026
 
