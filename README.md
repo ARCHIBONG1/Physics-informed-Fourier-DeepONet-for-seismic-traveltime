@@ -4,6 +4,14 @@ Seismic traveltime calculation based on the eikonal equation is fundamental to v
 
 In this project, we propose **PI-Fourier-DeepONet**, a hybrid physics-informed neural operator that combines the **Deep Operator Network (DeepONet)** and the **Fourier Neural Operator (FNO)** to approximate seismic traveltimes in complex media. DeepONet captures the operator mapping between traveltime, the velocity model, and source location, while FNO enhances the model's ability to learn global patterns in the frequency domain。
 
+# Related Publication
+For more details and technical descriptions, please refer to our paper：
+
+**Liu, Z., Archibong, G., Waheed, U. B., Wang, S., & Song, C. (2025). Physics-informed Fourier-DeepONet for a generalized eikonal solution. Computers & Geosciences, 106026.**
+
+https://doi.org/10.1016/j.cageo.2025.106026
+
+
 # Dataset
 ![4_velocity_families](https://github.com/user-attachments/assets/5662e93e-1c09-4d66-9e4d-638927abf401)
 
@@ -21,12 +29,6 @@ People are often curious whether physics-informed training and data-driven model
 The following kernel density estimation (KDE) plots illustrate the error distributions of PI-Fourier-DeepONet and Fourier-DeepONet across four velocity families.
 ![kde_4families](https://github.com/user-attachments/assets/8bae046a-573c-4a23-a713-71e107f9ac11)
 
-# Related Publication
-For more details and technical descriptions, please refer to our paper：
-
-**Liu, Z., Archibong, G., Waheed, U. B., Wang, S., & Song, C. (2025). Physics-informed Fourier-DeepONet for a generalized eikonal solution. Computers & Geosciences, 106026.**
-
-https://doi.org/10.1016/j.cageo.2025.106026
 
 # Requirements
 
